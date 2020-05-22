@@ -1,0 +1,13 @@
+version: '2.3'
+services:
+  flask-music:
+    image: music-recommend
+    build: .
+    container_name: music_con
+    environment:
+    - NVIDIA_VISIBLE_DEVICES=all
+    ports:
+    - "80:5000"
+    command: python app_server.py
+
+

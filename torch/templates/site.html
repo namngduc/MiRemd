@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" href="https://image.flaticon.com/icons/svg/148/148724.svg">
+    <title>{{ title }}</title>
+    <!-- Core CSS -->
+    <link href="../static/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <a href="">
+            <h1>Playlist</h1>
+        </a>
+    </div>
+
+    <div>
+        {% for entry in entries %}
+        <div class="player">
+            <h2 class="song-name">{{ entry.name }}</h2>
+            <div class="currently-playing">
+                <div class="value-similar">
+                    <div>Song:
+                        <b>{{ entry.genre }}</b>
+                    </div>
+                </div>
+                <div class="value-similar">
+                    <div>{{ entry.metrics }}
+                        <b>{{ entry.value }}</b>
+                    </div>
+                </div>
+                <audio controls="controls">
+                        <source src="{{ entry.link }}" type="audio/mp3">
+                    </audio>
+            </div>
+        </div>
+        {% else %}
+        <li>
+            <em>Unbelievable. No entries so far</em> {% endfor %}
+    </div>
+    <footer>
+        <p>made by <a href="https://github.com/namngduc"> namduc</a> ♡
+    </footer>
+</body>
+
+</html>

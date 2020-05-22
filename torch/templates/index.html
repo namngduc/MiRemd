@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Music Recommendation</title>
+    <link rel="icon" href="https://image.flaticon.com/icons/svg/148/148724.svg">
+    <link rel="stylesheet" href="../static/css/main.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>
+            <center>Music Recommendation System with Deep Learning</center>
+        </h1>
+
+        {% block content %} {% for message in form.seed.errors %}
+        <div class="flash">{{ message }}</div>
+        {% endfor %}
+        <form method=post>
+            {{ form.seed.label }} {{ form.seed }} {{ form.submit }}
+        </form>
+        {% endblock %}
+
+    </div>
+    <footer>
+        <p>made by <a href="https://github.com/namngduc"> namduc</a> ♡
+    </footer>
+</body>
+
+</html>

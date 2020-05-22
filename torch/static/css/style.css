@@ -1,0 +1,62 @@
+body {
+    background: linear-gradient(rgba(54, 79, 60, 0.25), rgba(73, 101, 77, 0.55)), url('http://4.bp.blogspot.com/-pcPjBBdE_K8/U7v4oEX3M8I/AAAAAAAAD2I/6dWyzgiPzkQ/s1600/Clean+BAndit+Album+.jpg');
+}
+
+a {
+    text-decoration: none;
+    color: #0a0a0a;
+}
+
+a:hover {
+    color: #49654d;
+}
+
+.player {
+    background: #fff;
+    overflow: hidden;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px rgba(54, 79, 60, .4);
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.currently-playing {
+    text-align: center;
+    margin-top: -3px;
+}
+
+.song-name {
+    font-size: 2.0em;
+    letter-spacing: 3px;
+    color: #364f3c;
+}
+
+.value-similar {
+    font-size: 1.2em;
+    letter-spacing: 1.5px;
+    color: #557c5f;
+    margin-top: 5px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    font-size: 0.5em;
+    text-transform: uppercase;
+    padding: 10px;
+    color: #0a0a0a;
+    letter-spacing: 3px;
+    font-family: 'Questrial', sans-serif;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #49654d;
+}
