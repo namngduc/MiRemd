@@ -29,9 +29,12 @@ Required Python >=3.5, install Anaconda (optional and recommended)
 ```php
 pip install -r requirements.txt
 ```
-**2.Run app**
+**2.Download Playlist songs**
+<br> Download playlist 40 songs from [here](http://download1518.mediafire.com/tkkcybm475sg/8fhzy7uhnq23t38/music.zip), extract file and put into folder ***templates***
+**3.Run app**
 <br> Go to ***torch*** folder, run:
 ```php
 python app_server.py
 ```
 and go to http://localhost:5000
+## 
