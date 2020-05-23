@@ -48,4 +48,5 @@ Go to http://localhost
 ![](https://i.imgur.com/0YbH8JQ.png)
 ![](https://i.imgur.com/go9UraR.png)
 ## References
-> - [***Deep content-based music recommendation***](https://papers.nips.cc/paper/5004-deep-content-based-music-recommendation)
+> - [*Deep content-based music recommendation*](https://papers.nips.cc/paper/5004-deep-content-based-music-recommendation)
+> - [*Recommending music on Spotify with deep learning*](https://benanne.github.io/2014/08/05/spotify-cnns.html)
