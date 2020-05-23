@@ -16,7 +16,7 @@ The dataset I use to train the network is fma_small file from the [Free Music Ar
 ### Training
 I'm using [Residual Block](https://arxiv.org/abs/1512.03385) into Convolutional neural network to increase the model's performance.
 ![](https://i.imgur.com/lx270ui.png)
-<br> Tensorboard
+<br> **Tensorboard**
 ![](https://i.imgur.com/NWR5CIQ.png)
 <br> **Performace on test set**
 ```
