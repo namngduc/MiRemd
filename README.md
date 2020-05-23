@@ -40,7 +40,7 @@ and go to http://localhost:5000
 ## Usage with Docker and Docker-compose
 **1. Requirement:**
  Install Docker and Docker-compose
-<br>**2. Run app**
+<br>**2. Build app**
 ```php
 docker-compose up --build
 ```
