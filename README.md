@@ -19,19 +19,19 @@ I'm using [Residual Block](https://arxiv.org/abs/1512.03385) into Convolutional 
 <br> **Tensorboard**
 ![](https://i.imgur.com/NWR5CIQ.png)
 <br> **Performance on test set**
-```
+```php
 Test Accuracy: 89.9450%
 ```
 ![](https://i.imgur.com/pQcHVte.png)
 ## Usage
 **1. Prerequisites**
 Required Python >=3.5, install Anaconda (optional and recommended)
-```
+```php
 pip install -r requirements.txt
 ```
 **2.Run app**
-Go to ***torch*** folder, run:
-```
+<br> Go to ***torch*** folder, run:
+```php
 python app_server.py
 ```
 and go to http://localhost:5000
