@@ -37,4 +37,11 @@ pip install -r requirements.txt
 python app_server.py
 ```
 and go to http://localhost:5000
-## 
+## Usage with Docker and Docker-compose
+**Requirement**
+Install Docker and Docker-compose
+**Run app**
+```
+docker-compose up --build
+```
+Go to http://localhost
