@@ -22,4 +22,4 @@ I'm using [Residual Block](https://arxiv.org/abs/1512.03385) into Convolutional 
 ```
 Test Accuracy: 89.9450%
 ```
-![](https://i.imgur.com/qi5IAd9.png)
+![](https://i.imgur.com/pQcHVte.png)
