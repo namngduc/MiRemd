@@ -9,5 +9,13 @@ The basic idea is that I use the CNN network to train as a classifier with label
 ![](https://i.imgur.com/cSQpKqe.png)
 ## Training model
 ### Process data
-The dataset I use to train the network is fma_small file from the [Free Music Archive](https://github.com/mdeff/fma) consist of 8,000 tracks of 30s, 8 balanced genres (GTZAN-like)(Hip-Hop, International, Electronic, Folk, Experimental, Rock, Pop, and Instrumental)
-![](https://i.imgur.com/IPoFBbK.png)
+The dataset I use to train the network is fma_small file from the [Free Music Archive](https://github.com/mdeff/fma) consist of 8,000 tracks of 30s, 8 balanced genres ( Hip-Hop, International, Electronic, Folk, Experimental, Rock, Pop, and Instrumental)(GTZAN-like).
+<br> The mel-frequency spectrogram of track in the dataset look like this:
+![](https://imgur.com/OC4INnI)
+<br> I will then slice into small images of 128x128 pixels in grayscale levels.
+### Training
+I'm using [Residual Block](https://arxiv.org/abs/1512.03385) into Convolutional neural network to increase the model's performance.
+![](https://imgur.com/lx270ui)
+<br> Tensorboard
+![](https://imgur.com/NWR5CIQ)
+![](https://imgur.com/lxFRGZc)
