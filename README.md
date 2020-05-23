@@ -18,8 +18,20 @@ I'm using [Residual Block](https://arxiv.org/abs/1512.03385) into Convolutional 
 ![](https://i.imgur.com/lx270ui.png)
 <br> **Tensorboard**
 ![](https://i.imgur.com/NWR5CIQ.png)
-<br> **Performace on test set**
+<br> **Performance on test set**
 ```
 Test Accuracy: 89.9450%
 ```
 ![](https://i.imgur.com/pQcHVte.png)
+## Usage
+**1. Prerequisites**
+Required Python >=3.5, install Anaconda (optional and recommended)
+```
+pip install -r requirements.txt
+```
+**2.Run app**
+Go to ***torch*** folder, run:
+```
+python app_server.py
+```
+and go to http://localhost:5000
