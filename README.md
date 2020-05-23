@@ -7,3 +7,4 @@ The basic idea is that I use the CNN network to train as a classifier with label
 <br> The *Cosine similarity* metric is used to generate a similarity score between one anchor song and the rest of the songs in the playlist set. The two songs with the highest similarity score with respect to the anchor song are then outputted as the recommendations.
 <br> **The network architecture looks like this:**
 ![](https://i.imgur.com/cSQpKqe.png)
+## Setup and install
