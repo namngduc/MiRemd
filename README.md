@@ -5,12 +5,12 @@ Traditinally, *Collaborative filtering* is a common method for Recommendation sy
 <br> *Content-based recommendations* make it possible for us to recommend new released or unpopular songs to listeners. 
 The basic idea is that I use the CNN network to train as a classifier with labels that are 8 different song genres on the Free Music Archive dataset. The trained network is then modified by discarding the softmax layer i.e. creating a new model which works as an encoder. This encoder takes as input slices of a spectrogram one at a time and outputs a 40 dimensional latent representation of that respective slice. This generates multiple latent vectors for one spectrogram depending on how many slices were generated. These multiple vectors are then averaged to get one latent representation for each spectrogram. 
 <br> The *Cosine similarity* metric is used to generate a similarity score between one anchor song and the rest of the songs in the playlist set. The two songs with the highest similarity score with respect to the anchor song are then outputted as the recommendations.
-<br> **The network architecture looks like this:**
+<br> **The network architecture look like this:**
 ![](https://i.imgur.com/cSQpKqe.png)
 ## Training model
 ### Process data
 The dataset I use to train the network is fma_small file from the [Free Music Archive](https://github.com/mdeff/fma) consist of 8,000 tracks of 30s, 8 balanced genres ( Hip-Hop, International, Electronic, Folk, Experimental, Rock, Pop, and Instrumental)(GTZAN-like).
-<br> The mel-frequency spectrogram of track in the dataset look like this:
+<br> The mel-frequency spectrogram of tracks in the dataset look like this:
 ![](https://i.imgur.com/OC4INnI.png)
 <br> I will then slice into small images of 128x128 pixels in grayscale levels.
 ### Training
@@ -40,7 +40,7 @@ and go to http://localhost:5000
 ## Usage with Docker and Docker-compose
 **1. Requirement:**
  Install Docker and Docker-compose
-<br> **2. Run app**
+<br>**2. Run app**
 ```php
 docker-compose up --build
 ```
