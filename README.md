@@ -7,4 +7,7 @@ The basic idea is that I use the CNN network to train as a classifier with label
 <br> The *Cosine similarity* metric is used to generate a similarity score between one anchor song and the rest of the songs in the playlist set. The two songs with the highest similarity score with respect to the anchor song are then outputted as the recommendations.
 <br> **The network architecture looks like this:**
 ![](https://i.imgur.com/cSQpKqe.png)
-## Setup and install
+## Training model
+### Process data
+The dataset I use to train the network is fma_small file from the [Free Music Archive](https://github.com/mdeff/fma) consist of 8,000 tracks of 30s, 8 balanced genres (GTZAN-like)(Hip-Hop, International, Electronic, Folk, Experimental, Rock, Pop, and Instrumental)
+![](https://i.imgur.com/IPoFBbK.png)
