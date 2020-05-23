@@ -38,10 +38,12 @@ python app_server.py
 ```
 and go to http://localhost:5000
 ## Usage with Docker and Docker-compose
-**Requirement**
-Install Docker and Docker-compose
-**Run app**
+**Requirement:**
+ Install Docker and Docker-compose
+<br> **Run app**
 ```
 docker-compose up --build
 ```
 Go to http://localhost
+![](https://i.imgur.com/0YbH8JQ.png)
+![](https://i.imgur.com/go9UraR.png)
