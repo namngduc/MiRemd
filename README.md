@@ -20,7 +20,7 @@ I'm using [Residual Block](https://arxiv.org/abs/1512.03385) into Convolutional 
 ![](https://i.imgur.com/NWR5CIQ.png)
 <br> **Performance on test set**
 ```php
-Test Accuracy: 89.9450%
+Test Accuracy: 89.9450 %
 ```
 ![](https://i.imgur.com/pQcHVte.png)
 ## Usage
