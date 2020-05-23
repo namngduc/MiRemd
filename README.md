@@ -1,5 +1,5 @@
 # Music Recommendation System with Deep Learning and Cosine Similarity
-This is a *Content-Based* systems focus on properities of items. Similarity of items is determined by measuring the similarity in their properties.
+This is a *Content-Based* recommmendation systems focus on properities of items. Similarity of items is determined by measuring the similarity in their properties.
 ## Overview
 Traditinally, *Collaborative filtering* is a common method for Recommendation systems. The idea of *collaborative filtering* is to determine the users’ preferences from historical usage data, focus on the relationship between users and items. But perhaps the biggest problem is that **new and unpopular items cannot be recommended:** if there is no usage data to analyze, the collaborative filtering approach breaks down. This is the so-called **cold-start problem**. 
 <br> *Content-based recommendations* make it possible for us to recommend new released or unpopular songs to listeners. 
