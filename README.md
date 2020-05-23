@@ -18,4 +18,8 @@ I'm using [Residual Block](https://arxiv.org/abs/1512.03385) into Convolutional 
 ![](https://i.imgur.com/lx270ui.png)
 <br> Tensorboard
 ![](https://i.imgur.com/NWR5CIQ.png)
-![](https://i.imgur.com/lxFRGZc.png)
+<br> **Performace on test set**
+```
+Test Accuracy: 89.9450%
+```
+![](https://i.imgur.com/qi5IAd9.png)
