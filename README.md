@@ -39,7 +39,7 @@ python app_server.py
 and go to http://localhost:5000
 ## Usage with Docker and Docker-compose
 **1. Requirement:**
- Install Docker and Docker-compose
+ Install Docker and Docker-compose, [nvidia-docker2](https://github.com/NVIDIA/nvidia-docker) for GPU support.
 <br>**2. Build app**
 ```php
 docker-compose up --build
