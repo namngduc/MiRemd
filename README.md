@@ -25,7 +25,7 @@ Test Accuracy: 89.9450%
 ![](https://i.imgur.com/pQcHVte.png)
 ## Usage
 **1. Prerequisites**
-Required Python >=3.5, install Anaconda (optional and recommended)
+<br> Required Python >=3.5, install Anaconda (optional and recommended)
 ```php
 pip install -r requirements.txt
 ```
@@ -38,10 +38,10 @@ python app_server.py
 ```
 and go to http://localhost:5000
 ## Usage with Docker and Docker-compose
-**Requirement:**
+**1. Requirement:**
  Install Docker and Docker-compose
-<br> **Run app**
-```
+<br> **2. Run app**
+```php
 docker-compose up --build
 ```
 Go to http://localhost
